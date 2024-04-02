@@ -1,0 +1,120 @@
+body {
+    background-color: #b6b5b0f1;
+}
+.logo  {
+    letter-spacing: -1px; 
+}
+
+.Diana {
+    color: #010101;  
+}
+
+.Margareta {
+    color: #dbe4f5;
+    font-size: 80%;  
+}
+
+
+.Gambarhome{
+    margin-top: 40px;
+}
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora';
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size:30px ;
+    font-weight: bold;
+    float: left;
+    font-family: 'Lora';
+    
+}
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #5e6f83;
+    z-index: 1;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #87CEEB;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-link {
+    font-size: 40px;  
+}
+
+.menu-link {
+    font-size: 18px;  
+    transition: font-size 0.3s ease; 
+}
+
+.menu-link:hover {
+    font-size: 22px; 
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 0 20px; /* Tambahkan padding untuk memberikan ruang antara kartu */
+}
+
+.card {
+    flex: 0 1 calc(50% - 20px); /* Menyesuaikan lebar kartu agar 2 kolom */
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(133, 203, 182);
+    border-radius: 5px;
+}
+
+.featured-image {
+    width: 200px; /* Lebar gambar diatur 100% agar terlihat penuh dalam kartu */
+    height: auto; /* Tetapkan tinggi yang sama untuk semua gambar */
+    object-fit: cover; /* Memastikan gambar diatur dengan baik */
+    border-radius: 5px; /* Tambahan untuk membulatkan sudut gambar */
+}
