@@ -3,35 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
     <header>
-        <h1>Blog</h1>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="gallery.html">Gallery</a> |
-            <a href="blog.html">Blog</a> |
-            <a href="contact.html">contact</a>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="">
+                        <span class="Diana">Diana</span> 
+                        <span class="Margareta">Margareta</span>
+                    </a>
+                </div>
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html" class="menu-link">Home</a></li>
+                        <li><a href="gallery.html" class="menu-link">Gallery</a></li>
+                        <li><a href="blog.html" class="menu-link">Blog</a></li>
+                        <li><a href="contact.html" class="menu-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
         </nav>
     </header>
-     <article>
-        <h2>Artikel 1</h2>
-        <img src="gambar1.jpeg" alt="foto 1">
-        <p>Tongkonan adalah rumah adat orang Toraja, yang merupakan tempat tinggal, kekuasaan adat, dan perkembangan kehidupan sosial budaya orang Toraja.</p>
-    </article>
-
-    <article>
-        <h2>Artikel 2</h2>
-        <img src="gambar2.jpeg" alt="foto 2">
-        <p>Ritual Ma'nene merupakan salah satu tradisi suku Toraja, Sulawesi Selatan, berupa membersihkan jenazah leluhur yang telah berbentuk mumi.</p>
-    </article>
-
-    <article>
-        <h2>Artikel 3</h2>
-        <img src="gambar3.jpeg" alt="foto 3">
-        <p>Tedong silaga sebagai salah satu rangkaian acara dalam rambu solo’ memiliki tujuan untuk memberikan penghiburan bagi keluarga yang sedang berduka. Meski sedang bersedih karena kehilangan orang tersayang, masyarakat Suku Toraja yakin bahwa kematian memang boleh ditangisi, tetapi juga tetap harus bergembira karena mengantarkan manusia kembali ke surga.</p>
-    </article>
+    <body>
+        <header>
+            <!-- Konten header di sini -->
+        </header>
+    
+        <div id="content">
+            <article class="card">
+                <h2>Artikel 1</h2>
+                <img src="gambar1.jpeg" alt="foto 1" class="featured-image">
+                <p>Tongkonan adalah rumah adat orang Toraja, yang merupakan tempat tinggal, kekuasaan adat, dan perkembangan kehidupan sosial budaya orang Toraja.</p>
+            </article>
+    
+            <article class="card">
+                <h2>Artikel 2</h2>
+                <img src="gambar2.jpeg" alt="foto 2" class="featured-image">
+                <p>Ritual Ma'nene merupakan salah satu tradisi suku Toraja, Sulawesi Selatan, berupa membersihkan jenazah leluhur yang telah berbentuk mumi.</p>
+            </article>
+    
+            <article class="card">
+                <h2>Artikel 3</h2>
+                <img src="gambar3.jpeg" alt="foto 3" class="featured-image">
+                <p>Tedong silaga sebagai salah satu rangkaian acara dalam rambu solo’ memiliki tujuan untuk memberikan penghiburan bagi keluarga yang sedang berduka. Meski sedang bersedih karena kehilangan orang tersayang, masyarakat Suku Toraja yakin bahwa kematian memang boleh ditangisi, tetapi juga tetap harus bergembira karena mengantarkan manusia kembali ke surga.</p>
+            </article>
+        </div>
+    
+    </body>
+    
 
 </body>
 </html>
