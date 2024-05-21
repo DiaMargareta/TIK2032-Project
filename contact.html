@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <body>
@@ -12,8 +12,8 @@
                 <div class="wrapper">
                     <div class="logo">
                         <a href="">
-                            <span class="Diana">Diana</span> 
-                            <span class="Margareta">Margareta</span>
+                            <span class="diana">Diana</span> 
+                            <span class="margareta">Margareta</span>
                         </a>
                     </div>
                     
@@ -39,7 +39,28 @@
             <p><a href="https://www.facebook.com/Diana Margareta" target="_blank"><i class="fab fa-facebook"></i> Facebook: Diana Margareta</a></p>
         </section>
     </div>
-    
+    <div class="feedback-form">
+        <h2>Feedback</h2>
+        <form action="index.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" name="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Made With &#169;2024 DianaMargareta </p>
+    </footer>
+</body>
+</html>
+
     
 <div>
 
